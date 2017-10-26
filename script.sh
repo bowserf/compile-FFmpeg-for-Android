@@ -85,6 +85,7 @@ fi
         --disable-encoders \
         --disable-decoders \
         --enable-decoder=aac \
+		--enable-decoder=alac \
         --enable-decoder=aac_latm \
         --enable-decoder=flac \
         --enable-decoder=mp1 \
