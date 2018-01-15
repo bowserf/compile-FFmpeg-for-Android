@@ -72,6 +72,7 @@ fi
         --enable-demuxer=mp3 \
         --enable-demuxer=wav \
         --enable-demuxer=mov \
+        --enable-demuxer=asf \
         --disable-bsfs \
         --disable-filters \
         --disable-parsers \
@@ -85,7 +86,7 @@ fi
         --disable-encoders \
         --disable-decoders \
         --enable-decoder=aac \
-		--enable-decoder=alac \
+        --enable-decoder=alac \
         --enable-decoder=aac_latm \
         --enable-decoder=flac \
         --enable-decoder=mp1 \
