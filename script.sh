@@ -73,6 +73,7 @@ fi
         --enable-demuxer=wav \
         --enable-demuxer=mov \
         --enable-demuxer=asf \
+        --enable-demuxer=ogg \
         --disable-bsfs \
         --disable-filters \
         --disable-parsers \
@@ -96,6 +97,7 @@ fi
         --enable-decoder=wmav2 \
         --enable-decoder=pcm_s16le \
         --enable-decoder=pcm_s16be \
+        --enable-decoder=vorbis \
         --disable-decoder=h264_cuvid \
         --disable-decoder=hevc_cuvid \
         --disable-decoder=mjpeg_cuvid \
